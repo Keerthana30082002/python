@@ -1,0 +1,11 @@
+my_string = "Hello,Python is amazing!"
+print("length of my_string is ", len(my_string))
+print("No of occurence of python in my_string is ", my_string.count("Python"))
+print("Find index of Python in my_string is ", my_string.find("Python"))
+print("Uppercase of my_string is ", my_string.upper())
+print("Lowercase of my_string is ", my_string.lower())
+print("Replaced  my_string is ", my_string.replace("amazing", "incredible"))
+m = my_string.split()
+print(" my_string after split is ", m)
+j = " ".join(m)
+print("my_string after join is : ", j)

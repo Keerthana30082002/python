@@ -1,0 +1,3 @@
+Buy Milk,False
+Study,True
+drink,False

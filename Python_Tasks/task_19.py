@@ -1,0 +1,11 @@
+my_dict = {"Name": "John", "age": 25, "city": "New york", "country": "USA"}
+print(len(my_dict))
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+print(my_dict.get("age"))
+print(my_dict.pop("city"))
+my_dict.update({"gender": "Male"})
+print(my_dict)
+my_dict.clear()
+print(my_dict)
